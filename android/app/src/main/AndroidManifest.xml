@@ -28,6 +28,11 @@
               android:name="io.flutter.embedding.android.NormalTheme"
               android:resource="@style/NormalTheme"
               />
+            <!-- Flutter embedding version -->
+            <meta-data
+                android:name="io.flutter.embedding.android.SplashScreenDrawable"
+                android:resource="@drawable/launch_background"
+                />
             
             <intent-filter android:autoVerify="true">
                 <action android:name="android.intent.action.MAIN"/>
